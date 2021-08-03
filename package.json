@@ -1,11 +1,11 @@
 {
   "author": "Andrew Nesbitt <andrewnez@gmail.com> (http://andrew.github.com)",
-  "name": "node-sass-middleware",
+  "name": "@gompa/node-sass-middleware",
   "description": "Connect middleware for node-sass",
-  "version": "0.11.2",
+  "version": "0.12.0",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint middleware.js test",
-    "test": "./node_modules/.bin/mocha"
+    "lint": "eslint middleware.js test",
+    "test": "mocha"
   },
   "homepage": "https://github.com/sass/node-sass-middleware",
   "keywords": [
@@ -41,5 +41,9 @@
     "mocha": "^7.1.0",
     "should": "^13.2.3",
     "supertest": "^4.0.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
 }
